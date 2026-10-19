@@ -1,5 +1,6 @@
 package oop;
 
+<<<<<<< HEAD
 import java.io.File;
 import java.time.Year;
 import java.util.regex.Pattern;
@@ -107,6 +108,19 @@ public class MinkuTante {
 			
 		} while(!izvelne.equals("Aizvērt"));
 		
+=======
+import javax.swing.JOptionPane;
+
+public class MinkuTante {
+
+	public static void main(String[] args) {
+		Minka runcis = new Minka("Muris", "Rūdis", "Oranžs", "Oļegs",
+				2017, true, "loto");
+		
+		JOptionPane.showMessageDialog(null, 
+				runcis.nolasitAtributus());
+		runcis.medit();
+>>>>>>> b9ef49245baf78a7ab528062244a939c9602375e
 	}
 
 }
