@@ -175,6 +175,16 @@ public class MinkuTante {
 					"Vispirms izveido kaķi!", "Brīdinājums",
 					JOptionPane.WARNING_MESSAGE);
 				break;
+				
+			case "Apkaskatīt failā saglabātos kaķus":
+				DarbsArFailu.nolasit(failaNosaukums);
+				break;
+				
+			case "Aizvērt":
+				JOptionPane.showMessageDialog(null,
+				"Programma apturēta!", "Paziņojums",
+				JOptionPane.INFORMATION_MESSAGE);
+				break;
 			}
 			
 		} while(!izvelne.equals("Aizvērt"));
