@@ -55,7 +55,7 @@ public class Minka {
 	void murrat() {
 		JOptionPane.showMessageDialog(null,
 				vards + " saka 'murr murr murr'", "Paziņojums",
-				JOptionPane.INFORMATION_MESSAGE);
+				JOptionPane.INFORMATION_MESSAGE, bilde);
 	}
 	
 	String nolasitAtributus() {
@@ -73,7 +73,7 @@ public class Minka {
 			"Ņamm ņamm ņammmmm, man garšo " + ediens,
 			"Informācija", JOptionPane.INFORMATION_MESSAGE,
 			bilde);
-			ediens = "Tuksa bļodiņa";
+			ediens = "Tukša bļodiņa";
 			izsalkums--;
 		} else {
 			JOptionPane.showMessageDialog(null,
